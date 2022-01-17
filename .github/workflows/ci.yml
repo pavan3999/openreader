@@ -15,7 +15,6 @@ on:
           required: false
 
 jobs:
-    build-android:
         name: Build app
         needs: install-and-test
         runs-on: ubuntu-latest
