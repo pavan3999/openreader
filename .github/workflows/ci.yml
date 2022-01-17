@@ -16,7 +16,7 @@ on:
 
 jobs:
    name: Build app
-     runs-on: ubuntu-latest
+   runs-on: ubuntu-latest
      steps:
       - uses: actions/checkout@v2
       - name: Install Dependencies
